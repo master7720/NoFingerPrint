@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "com.nofingerprint.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"DownloaderMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
